@@ -11,7 +11,7 @@ function genPassword(value,lowercase,uppercase,numbers,symbol){
     let totalLowercase="abcdefghijklmnopqrstuvwxyz";
     let totalUppercase="ABCDEFGHIJKLMNOPQRSTUVWXYZ";
     let totalNumbers="0123456789";
-    let totalSymbol="~`! @#$%^&*()_-+={[}]:;<>?/";
+    let totalSymbol="!@#$%&*_/?";
     let sampleSpace="";
     if(lowercase==true)
     {
