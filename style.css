@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;;
+}
+body{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #bdc3c7;
+    color: #fff;
+    
+}
+#container{
+    border: 0.5px solid #7f8c8d;
+    background-color: #3498db;
+    padding: 30px 2vw;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 5px 5px 5px black;
+}
+
+#container h1{
+    font-size: 2rem;
+   margin-bottom: 15px;
+}
+#password-box{
+    border: none;
+    outline: none;
+    padding: 10px;
+    width: 300px;
+    margin-bottom: 15px;
+    font-size: 25px;
+    font-weight: 600;
+    box-shadow: 2px 2px 5px black;
+}
+#slider{
+    margin-bottom: 15px;
+    
+}
+.row{
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    align-items: center;
+    margin-bottom: 15px;
+}
+.row input[type="checkbox"]{
+    width: 18px;
+    height: 18px;
+}
+.row p ,.row label{
+    font-size: 18px;
+ 
+}
+#generate-button{
+    border: none;
+    outline: none;
+    font-size: 20px;
+    padding: 10px 0;
+    font-weight: 700;
+    border-radius: 5px;
+    cursor: pointer;
+
+
+}
+#generate-button:hover{
+    background-color: aqua;
+}
